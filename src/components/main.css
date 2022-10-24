@@ -1,0 +1,22 @@
+.search-bar {
+  background-color: #e3e3e3;
+  width: 750px !important;
+}
+
+
+.img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 900px) {
+  .search-bar {
+    width: 550px !important;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .search-bar {
+    width: 450px !important;
+  }
+}
